@@ -4,5 +4,10 @@ fn main() {
 
 #[cfg(test)]
 mod test {
-    assert_eq!(1,1);
+    #[test]
+    fn test_sort() {
+        let x = 1;
+        let y = 1;
+        assert_eq!(&x,&y);
+    }
 }
